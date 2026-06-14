@@ -63,6 +63,10 @@ export function About() {
       name: "Certified Mediator",
       org: "International Mediation Campus / International Mediation Institute (IMI)",
     },
+     {
+      name: "Master's Degree In Communications",
+      org: "University of Lincoln",
+    },
   ];
 
   return (
@@ -76,7 +80,7 @@ export function About() {
               About Fisayo Dayo Samuel
             </h1>
             <p className="text-xl text-neutral-300">
-              Conflict Resolution Coach & Mediator
+              Family Life Practitioner
             </p>
           </div>
         </div>
@@ -111,26 +115,22 @@ export function About() {
               </h2>
               <div className="space-y-4 text-neutral-600 leading-relaxed">
                 <p>
-                  With over 7 years of experience in conflict resolution and
-                  organizational development, I've dedicated my career to
-                  helping individuals and organizations navigate challenging
-                  situations with grace and effectiveness.
+                  Fisayo Dayo-Samuel is a certified Family Life Practitioner,
+                  Therapist, and Author with over seven years of experience
+                  helping individuals and couples move from crisis and chaos
+                  into clarity, calm, and deep connection.
                 </p>
                 <p>
-                  My approach combines evidence-based methodologies with deep
-                  emotional intelligence, creating lasting solutions that
-                  address both immediate conflicts and underlying systemic
-                  issues. I believe that every conflict holds an opportunity for
-                  growth, understanding, and positive transformation.
+                  She is the creator of Deeply Connected Couples, a programme
+                  that helps couples reconnect and re-open their hearts to reach
+                  new levels of closeness, communication, and commitment.
                 </p>
                 <p>
-                  Having worked with Fortune 500 companies, government agencies,
-                  and community organizations, I bring a wealth of diverse
-                  perspectives to every engagement. My mission is to empower
-                  people with the skills and confidence needed to handle
-                  difficult conversations and build stronger, more resilient
-                  relationships.
+                  She is also the author of When Two Worlds Meet and You Are the
+                  Home You Never Leave, two practical, soul-stirring resources
+                  for anyone on a journey toward wholeness.
                 </p>
+                <p>Her work is rooted in the belief that peace is not a distant dream. It is a state you can build, one page, one step, one choice at a time.</p>
               </div>
               <Link
                 to="/contact"

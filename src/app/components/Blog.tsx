@@ -1,4 +1,5 @@
 import { Calendar, Clock, ArrowRight, Tag } from "lucide-react";
+import {NewspaperPublications} from './NewspaperPublications';
 
 export function Blog() {
   const featured = {
@@ -200,6 +201,10 @@ export function Blog() {
             </button>
           </div>
         </div>
+      </section>
+
+      <section >
+        <NewspaperPublications />
       </section>
 
       <section className="py-16 md:py-24 bg-neutral-50">
