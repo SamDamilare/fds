@@ -554,7 +554,7 @@ export function Assessment() {
       {/* Services Grid */}
       <section className="w-full py-16 md:py-24 bg-neutral-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
+          {/* <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-4">
               Our Services
             </h2>
@@ -562,7 +562,7 @@ export function Assessment() {
               Select a session below to book and pay securely. You'll receive a
               confirmation with all session details immediately after payment.
             </p>
-          </div>
+          </div> */}
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, idx) => (
