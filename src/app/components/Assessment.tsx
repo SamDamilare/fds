@@ -616,7 +616,7 @@ export function Assessment() {
                     aria-label={`Book ${service.name}`}
                   >
                     <Calendar className="h-5 w-5" />
-                    Book & Pay Now
+                    Book Now
                   </button>
                 </div>
               </div>

@@ -267,7 +267,7 @@ import {
 import { useState } from "react";
 
 // IMPORT YOUR EXISTING SUPABASE CLIENT
-import { supabase } from "../../Supabase-Client/supabase.ts";
+import { supabase } from "../../Supabase-Client/supabase";
 
 export function Contact() {
   const [formData, setFormData] = useState({

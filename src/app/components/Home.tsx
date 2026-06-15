@@ -1,42 +1,59 @@
 import { Link } from "react-router";
-import { ArrowRight, Shield, Users, MessageCircle, Award, Sparkles, BookOpen } from "lucide-react";
+import {
+  ArrowRight,
+  Shield,
+  Users,
+  MessageCircle,
+  Award,
+  Sparkles,
+  BookOpen,
+} from "lucide-react";
 
 export function Home() {
   const features = [
     {
       icon: Shield,
       title: "Conflict Resolution",
-      description: "Transform workplace conflicts into opportunities for growth and collaboration.",
+      description:
+        "Transform workplace conflicts into opportunities for growth and collaboration.",
     },
     {
       icon: Users,
       title: "Team Mediation",
-      description: "Build stronger, more cohesive teams through effective communication strategies.",
+      description:
+        "Build stronger, more cohesive teams through effective communication strategies.",
     },
     {
       icon: MessageCircle,
       title: "Communication Coaching",
-      description: "Master the art of difficult conversations with confidence and empathy.",
+      description:
+        "Master the art of difficult conversations with confidence and empathy.",
     },
   ];
 
   const services = [
     {
       title: "Individual Coaching",
-      description: "One-on-one sessions tailored to your specific conflict resolution needs.",
-      image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+      description:
+        "One-on-one sessions tailored to your specific conflict resolution needs.",
+      image:
+        "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
       tag: "Personal Growth",
     },
     {
       title: "Corporate Training",
-      description: "Comprehensive workshops designed to build conflict resolution skills across your organization.",
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+      description:
+        "Comprehensive workshops designed to build conflict resolution skills across your organization.",
+      image:
+        "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
       tag: "Team Building",
     },
     {
       title: "Mediation Services",
-      description: "Professional mediation to help parties reach mutually beneficial agreements.",
-      image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&q=80",
+      description:
+        "Professional mediation to help parties reach mutually beneficial agreements.",
+      image:
+        "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&q=80",
       tag: "Resolution",
     },
   ];
@@ -50,30 +67,34 @@ export function Home() {
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
               <Sparkles className="size-4" />
-              <span className="text-sm font-medium">Conflict Resolution Coach</span>
+              <span className="text-sm font-medium">
+                Family Life Practitioner
+              </span>
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Transform Conflict Into
+              Build a Foundation That Lasts
               <span className="block text-[#e63946]">
-                Opportunity for Growth
+                For Your Love and Family
               </span>
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-2xl mx-auto">
-              Empowering individuals and organizations to navigate difficult conversations with confidence and create lasting harmony.
+              Empowering individuals and couples to navigate life’s transitions,
+              deepen emotional connection, and create a joyful, intentional
+              home.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
                 to="/assessment"
                 className="inline-flex items-center gap-2 bg-[#e63946] text-white px-8 py-4 rounded-xl font-semibold hover:bg-[#d62828] transition-all"
               >
-                Take Free Assessment
+                Book A Session
                 <ArrowRight className="size-5" />
               </Link>
               <Link
                 to="/contact"
                 className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border-2 border-white/30 text-white px-8 py-4 rounded-xl font-semibold hover:bg-white/20 transition-all"
               >
-                Book a Session
+                Contact Us
               </Link>
             </div>
           </div>
@@ -93,8 +114,12 @@ export function Home() {
                   <div className="size-14 rounded-xl bg-[#1e3a5f] flex items-center justify-center mb-6 group-hover:scale-110 transition-transform">
                     <Icon className="size-7 text-white" />
                   </div>
-                  <h3 className="text-xl font-semibold mb-3 text-neutral-900">{feature.title}</h3>
-                  <p className="text-neutral-600 leading-relaxed">{feature.description}</p>
+                  <h3 className="text-xl font-semibold mb-3 text-neutral-900">
+                    {feature.title}
+                  </h3>
+                  <p className="text-neutral-600 leading-relaxed">
+                    {feature.description}
+                  </p>
                 </div>
               );
             })}
@@ -105,9 +130,12 @@ export function Home() {
       <section className="py-16 md:py-24 bg-neutral-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-neutral-900">Services Offered</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-neutral-900">
+              Services Offered
+            </h2>
             <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
-              Comprehensive solutions designed to meet your conflict resolution needs
+              Comprehensive solutions designed to meet your conflict resolution
+              needs
             </p>
           </div>
 
@@ -130,8 +158,12 @@ export function Home() {
                   </div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-semibold mb-3 text-neutral-900">{service.title}</h3>
-                  <p className="text-neutral-600 mb-4 leading-relaxed">{service.description}</p>
+                  <h3 className="text-xl font-semibold mb-3 text-neutral-900">
+                    {service.title}
+                  </h3>
+                  <p className="text-neutral-600 mb-4 leading-relaxed">
+                    {service.description}
+                  </p>
                   <Link
                     to="/contact"
                     className="inline-flex items-center gap-2 text-[#e63946] font-medium hover:gap-3 transition-all"
@@ -158,13 +190,14 @@ export function Home() {
                 Ready to Transform Your Approach to Conflict?
               </h2>
               <p className="text-xl text-white/90 mb-8 leading-relaxed">
-                Take the first step towards building stronger relationships and creating a more harmonious environment.
+                Take the first step towards building stronger relationships and
+                creating a more harmonious environment.
               </p>
               <Link
                 to="/assessment"
                 className="inline-flex items-center gap-2 bg-[#e63946] text-white px-8 py-4 rounded-xl font-semibold hover:bg-[#d62828] transition-all"
               >
-                Start Your Assessment
+                Book A Session
                 <ArrowRight className="size-5" />
               </Link>
             </div>
@@ -197,7 +230,9 @@ export function Home() {
               <BookOpen className="size-4" />
               <span className="text-sm font-medium">Latest Resources</span>
             </div>
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-neutral-900">From the Blog & Podcast</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-neutral-900">
+              From the Blog & Podcast
+            </h2>
             <p className="text-lg text-neutral-600 max-w-2xl mx-auto">
               Insights and strategies for effective conflict resolution
             </p>
@@ -207,12 +242,15 @@ export function Home() {
               to="/blog"
               className="group p-8 rounded-2xl bg-white border border-neutral-200 hover:shadow-xl hover:-translate-y-1 transition-all"
             >
-              <div className="text-[#e63946] font-medium mb-2">Latest Article</div>
+              <div className="text-[#e63946] font-medium mb-2">
+                Latest Article
+              </div>
               <h3 className="text-2xl font-bold mb-3 text-neutral-900 group-hover:text-[#e63946] transition-colors">
                 5 Steps to De-escalate Workplace Tension
               </h3>
               <p className="text-neutral-600 mb-4">
-                Learn practical techniques to reduce tension and create a more productive work environment.
+                Learn practical techniques to reduce tension and create a more
+                productive work environment.
               </p>
               <span className="inline-flex items-center gap-2 text-[#e63946] font-medium group-hover:gap-3 transition-all">
                 Read Article
@@ -223,12 +261,15 @@ export function Home() {
               to="/podcast"
               className="group p-8 rounded-2xl bg-white border border-neutral-200 hover:shadow-xl hover:-translate-y-1 transition-all"
             >
-              <div className="text-[#1e3a5f] font-medium mb-2">Latest Episode</div>
+              <div className="text-[#1e3a5f] font-medium mb-2">
+                Latest Episode
+              </div>
               <h3 className="text-2xl font-bold mb-3 text-neutral-900 group-hover:text-[#1e3a5f] transition-colors">
                 The Art of Active Listening in Mediation
               </h3>
               <p className="text-neutral-600 mb-4">
-                Discover how active listening transforms conflict resolution outcomes in this insightful episode.
+                Discover how active listening transforms conflict resolution
+                outcomes in this insightful episode.
               </p>
               <span className="inline-flex items-center gap-2 text-[#1e3a5f] font-medium group-hover:gap-3 transition-all">
                 Listen Now

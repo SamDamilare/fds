@@ -96,9 +96,9 @@ export function Root() {
                 </span>
               </div>
               <p className="text-neutral-400 max-w-md">
-                Empowering individuals and organizations with effective conflict
-                resolution strategies and coaching for lasting peace and
-                harmony.
+                Empowering individuals and couples to navigate life’s
+                transitions, deepen emotional connection, and create a joyful,
+                intentional home.
               </p>
             </div>
             <div>

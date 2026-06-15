@@ -63,7 +63,7 @@ export function About() {
       name: "Certified Mediator",
       org: "International Mediation Campus / International Mediation Institute (IMI)",
     },
-     {
+    {
       name: "Master's Degree In Communications",
       org: "University of Lincoln",
     },
@@ -79,9 +79,7 @@ export function About() {
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
               About Fisayo Dayo Samuel
             </h1>
-            <p className="text-xl text-neutral-300">
-              Family Life Practitioner
-            </p>
+            <p className="text-xl text-neutral-300">Family Life Practitioner</p>
           </div>
         </div>
       </section>
@@ -130,7 +128,11 @@ export function About() {
                   Home You Never Leave, two practical, soul-stirring resources
                   for anyone on a journey toward wholeness.
                 </p>
-                <p>Her work is rooted in the belief that peace is not a distant dream. It is a state you can build, one page, one step, one choice at a time.</p>
+                <p>
+                  Her work is rooted in the belief that peace is not a distant
+                  dream. It is a state you can build, one page, one step, one
+                  choice at a time.
+                </p>
               </div>
               <Link
                 to="/contact"
@@ -250,7 +252,7 @@ export function About() {
               to="/assessment"
               className="inline-flex items-center gap-2 bg-[#e63946] text-white px-8 py-4 rounded-xl font-semibold hover:bg-[#d62828] transition-all"
             >
-              Take Free Assessment
+              Book A Session
               <ArrowRight className="size-5" />
             </Link>
             <Link
