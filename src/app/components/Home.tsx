@@ -364,48 +364,48 @@ export function Home() {
   const features = [
     {
       icon: Shield,
-      title: "Conflict Resolution",
+      title: "Premarital Counselling",
       description:
-        "Transform workplace conflicts into opportunities for growth and collaboration.",
+        "Helping About-to-Wed couples build their marriage on a foundation of clarity, honesty, and understanding.",
     },
     {
       icon: Users,
-      title: "Team Mediation",
+      title: "Couples Therapy",
       description:
-        "Build stronger, more cohesive teams through effective communication strategies.",
+        "Helping Newly Married couples reconnect, communicate, and move from chaos back to calm.",
     },
     {
       icon: MessageCircle,
-      title: "Communication Coaching",
+      title: "Individual Healing",
       description:
-        "Master the art of difficult conversations with confidence and empathy.",
+        "A dedicated 4-week online journey to process pain and rebuild emotional and mental calm.",
     },
   ];
 
   const services = [
     {
-      title: "Individual Coaching",
+      title: "Free Consultation Call",
       description:
-        "One-on-one sessions tailored to your specific conflict resolution needs.",
+        "A free 30-minute call to talk through where you are and explore the right next step for you.",
       image:
-        "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+        "https://res.cloudinary.com/dktrwqio1/image/upload/v1781734304/priscilla-du-preez-F9DFuJoS9EU-unsplash.jpg_regpl2.jpg",
       tag: "Personal Growth",
     },
     {
-      title: "Corporate Training",
+      title: "Premarital Counselling",
       description:
-        "Comprehensive workshops designed to build conflict resolution skills across your organization.",
+        "Focused online session to build a strong foundation for marriage.",
       image:
-        "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
-      tag: "Team Building",
+        "https://res.cloudinary.com/dktrwqio1/image/upload/v1781734303/sandy-millar-YeJWDWeIZho-unsplash_1.jpg_xi63pq.jpg",
+      tag: "For Couples",
     },
     {
-      title: "Mediation Services",
+      title: "One-on-One Therapy",
       description:
-        "Professional mediation to help parties reach mutually beneficial agreements.",
+        "A dedicated 4-week online journey to process pain and rebuild emotional and mental calm.",
       image:
-        "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=800&q=80",
-      tag: "Resolution",
+        "https://res.cloudinary.com/dktrwqio1/image/upload/v1781734302/vitaly-gariev-m-82PNzgFq4-unsplash.jpg_bhnqia.jpg",
+      tag: "Healing",
     },
   ];
 
@@ -778,7 +778,7 @@ export function Home() {
             ) : (
               <Link
                 to="/podcast"
-                className="group block h-64 rounded-2xl bg-[#1e3a5f] flex items-center justify-center"
+                className="group h-64 rounded-2xl bg-[#1e3a5f] flex items-center justify-center"
               >
                 <p className="text-white/70 text-sm">No episodes yet</p>
               </Link>

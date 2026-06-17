@@ -509,7 +509,7 @@ const services: Service[] = [
   // },
 ];
 
-export function Assessment() {
+export function Session() {
   const handleBook = (link: string) => {
     window.open(link, "_blank", "noopener,noreferrer");
   };
@@ -588,9 +588,9 @@ export function Assessment() {
 
                 {/* Card Body */}
                 <div className="flex-1 p-6 flex flex-col space-y-4">
-                  <p className="text-neutral-600 text-sm leading-relaxed">
+                  {/* <p className="text-neutral-600 text-sm leading-relaxed">
                     {service.description}
-                  </p>
+                  </p> */}
 
                   {/* Features */}
                   <ul className="space-y-2 flex-1">
