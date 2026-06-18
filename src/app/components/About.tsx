@@ -88,7 +88,7 @@ export function About() {
             <div className="relative">
               <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="https://res.cloudinary.com/dktrwqio1/image/upload/v1778493050/FDS/aiease_1753340209542-Photoroom_p8yvsv.png"
+                  src="https://res.cloudinary.com/dktrwqio1/image/upload/v1781762628/IMG_2821_hstsq7.jpg"
                   alt="Fisayo Dayo Samuel"
                   className="w-full h-full object-cover"
                 />

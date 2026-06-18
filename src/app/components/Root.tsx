@@ -13,7 +13,7 @@ export function Root() {
     { path: "/blog", label: "Blog" },
     { path: "/podcast", label: "Podcast" },
     { path: "/contact", label: "Contact" },
-    { path: "/assessment", label: "Assessment", highlighted: true },
+    { path: "/assessment", label: "Book A Session", highlighted: true },
   ];
 
   return (

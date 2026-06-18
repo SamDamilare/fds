@@ -6,10 +6,10 @@ export function NotFound() {
     <div className="min-h-[80vh] flex items-center justify-center bg-neutral-50">
       <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="mb-8">
-          <div className="text-9xl font-bold text-[#e63946] mb-4">
-            404
-          </div>
-          <h1 className="text-3xl md:text-4xl font-bold mb-4 text-neutral-900">Page Not Found</h1>
+          <div className="text-9xl font-bold text-[#e63946] mb-4">404</div>
+          <h1 className="text-3xl md:text-4xl font-bold mb-4 text-neutral-900">
+            Page Not Found
+          </h1>
           <p className="text-lg text-neutral-600 mb-8">
             Sorry, the page you're looking for doesn't exist or has been moved.
           </p>
@@ -40,7 +40,9 @@ export function NotFound() {
             <h3 className="font-semibold text-neutral-900 mb-2 group-hover:text-[#1e3a5f] transition-colors">
               About
             </h3>
-            <p className="text-sm text-neutral-600">Learn about Fisayo and his approach</p>
+            <p className="text-sm text-neutral-600">
+              Learn about Fisayo and his approach
+            </p>
           </Link>
           <Link
             to="/blog"
@@ -49,7 +51,9 @@ export function NotFound() {
             <h3 className="font-semibold text-neutral-900 mb-2 group-hover:text-[#e63946] transition-colors">
               Blog
             </h3>
-            <p className="text-sm text-neutral-600">Read insights on conflict resolution</p>
+            <p className="text-sm text-neutral-600">
+              Read insights on conflict resolution
+            </p>
           </Link>
           <Link
             to="/assessment"
@@ -58,7 +62,9 @@ export function NotFound() {
             <h3 className="font-semibold text-neutral-900 mb-2 group-hover:text-[#1e3a5f] transition-colors">
               Assessment
             </h3>
-            <p className="text-sm text-neutral-600">Take a free skills assessment</p>
+            <p className="text-sm text-neutral-600">
+              Take a free skills assessment
+            </p>
           </Link>
         </div>
       </div>
