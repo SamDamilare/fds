@@ -260,7 +260,7 @@ export function Root() {
               <h3 className="font-semibold mb-3">Connect</h3>
               <ul className="space-y-2 text-neutral-400">
                 <li>Email: fisayofds@gmail.com</li>
-                <li>Phone: +234 XXX XXX XXXX</li>
+                <li>Substack: @fisayodayosamuel</li>
               </ul>
             </div>
           </div>
