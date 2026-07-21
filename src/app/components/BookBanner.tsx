@@ -98,7 +98,8 @@ export function BookBanner() {
           {/* CTA Buttons */}
           <div className="flex flex-col items-center gap-3">
             <a
-              href="https://substack.com/@fisayodayosamuel"
+              // href="https://substack.com/@fisayodayosamuel"
+              href="https://fisayodayosamuel.substack.com/embed"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-xl font-semibold text-white text-lg transition-all hover:scale-105 active:scale-95 shadow-lg"
