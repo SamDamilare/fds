@@ -413,7 +413,15 @@ export function Home() {
     <div>
       {/* Hero */}
       <section className="relative bg-[#1e3a5f] text-white py-20 md:py-32 overflow-hidden">
-        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1vcGFjaXR5PSIwLjEiIHN0cm9rZS13aWR0aD0iMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')] opacity-20" />
+        {/* <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1vcGFjaXR5PSIwLjEiIHN0cm9rZS13aWR0aD0iMSIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmlkKSIvPjwvc3ZnPg==')] opacity-20" /> */}
+        <div
+          className="absolute inset-0 opacity-10"
+          style={{
+            backgroundImage: `radial-gradient(circle, white 1px, transparent 1px)`,
+            backgroundSize: `24px 24px`,
+          }}
+        />
+
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center max-w-4xl mx-auto">
             <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
@@ -540,11 +548,10 @@ export function Home() {
                 <span className="text-sm font-medium">Proven Results</span>
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Ready to Transform Your Approach to Conflict?
+                Ready to Begin your Journey to Wholeness?
               </h2>
               <p className="text-xl text-white/90 mb-8 leading-relaxed">
-                Take the first step towards building stronger relationships and
-                creating a more harmonious environment.
+                Take the first step towards a calmer mind, a stronger marriage, and a more connected relationship.
               </p>
               <Link
                 to="/assessment"
@@ -556,20 +563,20 @@ export function Home() {
             </div>
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
-                <div className="text-4xl font-bold mb-2">500+</div>
-                <div className="text-white/90">Clients Coached</div>
+                <div className="text-4xl font-bold mb-2">4</div>
+                <div className="text-white/90">Certifications</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
                 <div className="text-4xl font-bold mb-2">95%</div>
                 <div className="text-white/90">Success Rate</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
-                <div className="text-4xl font-bold mb-2">15+</div>
-                <div className="text-white/90">Years Experience</div>
+                <div className="text-4xl font-bold mb-2">7+</div>
+                <div className="text-white/90">Years of Practice</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20">
-                <div className="text-4xl font-bold mb-2">100+</div>
-                <div className="text-white/90">Organizations</div>
+                <div className="text-4xl font-bold mb-2">100%</div>
+                <div className="text-white/90">Confidential</div>
               </div>
             </div>
           </div>

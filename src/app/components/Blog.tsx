@@ -420,7 +420,7 @@ export function Blog() {
                 {selectedPost.content}
               </ReactMarkdown>
             </div> */}
-            npm install @tailwindcss/typography
+            {/* npm install @tailwindcss/typography */}
             {/* Tags */}
             {selectedPost.tags && (
               <div className="mt-8 pt-8 border-t border-neutral-200">

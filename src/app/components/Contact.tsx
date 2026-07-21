@@ -403,7 +403,7 @@ export function Contact() {
             </h1>
 
             <p className="text-xl text-white/90">
-              Ready to transform conflict into opportunity?
+              Ready to take the first step toward clarity, healing, and connection?
             </p>
           </div>
         </div>
