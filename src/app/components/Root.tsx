@@ -164,7 +164,7 @@ export function Root() {
             <Link to="/" className="flex items-center gap-3">
               <img src={logoImg} alt="FDS Logo" className="h-10" />
               <span className="font-semibold text-lg text-neutral-900">
-                Fisayo Dayo Samuel
+                Fisayo Dayo-Samuel
               </span>
             </Link>
 
@@ -232,7 +232,7 @@ export function Root() {
               <div className="flex items-center gap-3 mb-4">
                 <img src={logoImg} alt="FDS Logo" className="h-10" />
                 <span className="font-semibold text-lg">
-                  Fisayo Dayo Samuel
+                  Fisayo Dayo-Samuel
                 </span>
               </div>
               <p className="text-neutral-400 max-w-md">
