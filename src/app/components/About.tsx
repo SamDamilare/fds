@@ -117,12 +117,6 @@ export function About() {
                   deep connection.
                 </p>
                 <p>
-                  Fisayo Dayo-Samuel is a certified Family Life Practitioner and
-                  Author with over seven years of experience helping individuals
-                  and couples move from crisis and chaos into clarity, calm, and
-                  deep connection.
-                </p>
-                <p>
                   She is the creator of Deeply Connected Couples, a programme
                   that helps couples reconnect and re-open their hearts to reach
                   new levels of closeness, communication, and commitment.
