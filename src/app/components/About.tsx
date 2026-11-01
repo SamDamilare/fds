@@ -111,10 +111,10 @@ export function About() {
               </h2>
               <div className="space-y-4 text-neutral-600 leading-relaxed">
                 <p>
-                  Fisayo Dayo-Samuel is a certified Family Life Practitioner,
-                  Therapist, and Author with over seven years of experience
-                  helping individuals and couples move from crisis and chaos
-                  into clarity, calm, and deep connection.
+                  Fisayo Dayo-Samuel is a certified Family Life Practitioner and
+                  Author with over seven years of experience helping individuals
+                  and couples move from crisis and chaos into clarity, calm, and
+                  deep connection.
                 </p>
                 <p>
                   She is the creator of Deeply Connected Couples, a programme

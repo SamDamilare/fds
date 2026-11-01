@@ -370,7 +370,7 @@ export function Home() {
     },
     {
       icon: Users,
-      title: "Couples Therapy",
+      title: "Couples Counselling",
       description:
         "Helping Newly Married couples reconnect, communicate, and move from chaos back to calm.",
     },
@@ -400,7 +400,7 @@ export function Home() {
       tag: "For Couples",
     },
     {
-      title: "One-on-One Therapy",
+      title: "One-on-One Healing",
       description:
         "A dedicated 4-week online journey to process pain and rebuild emotional and mental calm.",
       image:
@@ -551,7 +551,8 @@ export function Home() {
                 Ready to Begin your Journey to Wholeness?
               </h2>
               <p className="text-xl text-white/90 mb-8 leading-relaxed">
-                Take the first step towards a calmer mind, a stronger marriage, and a more connected relationship.
+                Take the first step towards a calmer mind, a stronger marriage,
+                and a more connected relationship.
               </p>
               <Link
                 to="/assessment"
